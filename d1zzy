@@ -397,7 +397,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 
 local sound = Instance.new("Sound", character)
-sound.SoundId = "rbxassetid://105914070405455" --change this for music and delete this part if you dont want music
+sound.SoundId = "rbxassetid://129199756615993" --change this for music and delete this part if you dont want music
 
 while true do
     sound:Play()
